@@ -341,9 +341,21 @@
             "name": "Major events",
             "positionInList": 7,
             "dataType": "text",
-            "visibility": "everyone",
+            "visibility": "ai_only_boring",
             "description": "A chronological record of all major story milestones — relationships, betrayals, discoveries, losses, and world-changing events. The AI reads this every turn to maintain long-term story continuity and remember what has happened.\n",
             "updateInstructions": "Update Instructions:\n  - Add a new entry whenever a significant, story-defining event occurs this turn.\n  - Use the format:\n      [Category]\n           MM-DD-YYYY (DayName) Time — Title\n           Characters: Name, Name\n           Notes: Details\n  - Mark events that are secrets to the player with [Secret — not known to player].\n  - Never delete entries. The log is permanent story history.\n  - Only add entries for truly major events — not routine actions.",
+            "initialValue": "",
+            "initialValueBasedOnPC": "same",
+            "autoUpdate": false
+        },
+        {
+            "id": "a9aAIv9Os",
+            "name": "New Characters",
+            "positionInList": 8,
+            "dataType": "text",
+            "visibility": "ai_only_boring",
+            "description": "A running list of new characters who have appeared in the story, so they are never forgotten.",
+            "updateInstructions": "Whenever a new character appears for the first time, add their name and a one-sentence description of who they are to this list. Never remove entries.",
             "initialValue": "",
             "initialValueBasedOnPC": "same",
             "autoUpdate": true
@@ -494,6 +506,6 @@
         }
     ],
     "autoAdvanceVersion": false,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "designNotes": "--- Original user world design prompt: ---\n\nPrelude:\nAkari has no connections to anyone, except for her best friend, because she was orphaned at the age of 18, and is a very introverted and quiet girl. Her parents left her a fortune though, so her plan for life was to just slowly spend the money on her apartment and food while she could fight crime. \nYuki, Akari's best friend, is also a magical girl who similarly has no connections to anyone. This friend is also a petite Asian girl except she is slightly more athletic than the main character.\nAkari and Yuki where targeted by Kaito Nakamura with a slow acting transformation curse that was slowly turning Akari and Yuki into bimbo sluts. Yuki's curse was also turning her into a futanari. \nA chaos magician, in the vein of Peter J. Carroll’s work Liber Null & Psychonaut, named William Ashford took exception to this and took it upon himself to help Akari and Yuki. William Ashford is extremely powerful and can bend reality with his chaos magic, but he is also a huge nerd using incantations and mantras that are pop culture references. He believes informed consent is extremely important so changing someone's mind against their will infuriated him. \nBecause William Ashford an agent of chaos sided with Akari and Yuki an aspect of order tried to re-balance the scales and for the story to playout in a way that Akari and Yuki ended up sex crazed bimbos fucking each other, a victory for Kaito Nakamura. Akari and Yuki with the protection of William subverted the narrative they were suppose to play and chose each other's genuine romantic love instead of the curse driven sex. This broke the destiny they where suppose to have. A clash between love and freedom, Akari Yuki and WIlliam, vs destiny and order, Kaito and Order on 03-19-2026 broke reality causing a cosmic reset. \n\nThis story will follow what happened after the cosmic reset. William Ashford reincarnates with full memory of the previous timeline, but Akari and Yuki don't remember till 03-19-2026 in the new timeline. In this timeline unlike Akari and Yuki's original magic is a well known phenomenon and mages of all kinds including magical girls are treated like celebrities. This happened because the timeline reset left an image in the Cosmic Microwave Background that could only be explained by magic. Due to magic being a know quantity Akari's parents not longer die in a car crash in this time line so Akari is no longer as alone. Yuki's parents and younger brother are also alive in this time line. The app MagiConnect is the social media of choice for mages it serves as both resume and ranking system for mages. People can follow, favorite, and share clips/images of their favorite mages. William Ashford is rated number one globally in both power and popularity. \nWe will pick up with Akari and Yuki waking up on 03-19-2026 realizing their other time line life despite it's dream like haze and restarting their romantic relationship built from genuine love. Where they will have to navigate romance, magical girl duty, and potentially reconnecting with William Ashford the number one mage.\nThis story needs to be written with deep introspection of a romance that defies all for a mature audience capable of dealing with complicated themes."
 }
