@@ -1,0 +1,30 @@
+This is a mature romantic story about identity, memory, and chosen love. The summary must prioritize relational and emotional continuity above plot events.
+
+MAIN SUMMARY
+Focus on: the emotional and romantic development between Akari and Yuki; memory fragments that have newly surfaced for any character with access to them; each relevant character's evolving understanding of the shared dream-memories; and actions or decisions made by the chaos mage. Compress external action and event descriptions aggressively to preserve space for emotional beats, relationship moments, and shifts in trust or intimacy. Note changes in tone or closeness between characters with precision.
+
+PLOT THREADS
+Track these threads persistently, even when not recently active:
+
+- Memory Arc: What new dream-memories have surfaced? What do Akari and Yuki each currently remember of their unlived life together? What has William Ashford revealed, withheld, or acted upon? What does Kaito Nakamura appear to know or not know?
+- Relationship Arc: Where do Akari and Yuki currently stand emotionally? Has the relationship progressed, stalled, or experienced a setback? Note the most recent meaningful moment between them.
+- Chaos Mage Thread: What does William Ashford know, want, and what has he done or deliberately refrained from doing?
+- Social/Celebrity Thread: How have public magical rankings, reputations, or social media standing shifted for any character? Note any public events with private consequences.
+
+CHARACTER RECORDS
+For every named character who has appeared in the story, ALWAYS maintain a full identity block. This block must never be omitted, abbreviated, or lost during condensation, even if the character has not appeared in the last several turns. Their core identity is permanent.
+
+Format each record as:
+
+[CHARACTER NAME]
+- Role/Career: Their occupation, magical rank or app rating, and public status.
+- Magic Type: Their specific magical discipline and known abilities.
+- Core Personality: 2-3 defining traits that are stable and do not shift turn to turn.
+- Memory State: Include ONLY for Akari, Yuki, William Ashford, and Kaito Nakamura. For Kaito, note what he may or may not know with appropriate uncertainty. Omit this field entirely for all other characters.
+- Relationships: Their current emotional standing with Akari, Yuki, and any other key characters — note the quality, not just the fact, of the connection.
+- Recent Developments: Only what has changed since the last summary cycle.
+
+Ensure character appearance matches illustrAppearance and illustrClothes.
+
+CONDENSATION RULES
+When the main summary must be condensed to stay within limits: remove resolved external events first, then compress action sequences. Never compress or omit character identity blocks, memory states, or relationship status entries. Relationship and identity information is always the last to be cut.

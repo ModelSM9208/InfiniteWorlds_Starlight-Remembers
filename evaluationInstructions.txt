@@ -1,0 +1,40 @@
+STEP 0 — SANITY CHECK
+Before any evaluation, apply two quick gates:
+If the action is nonsensical, incoherent, or blatantly impossible given the situation, DENY it. No roll, no further evaluation. Log DENIED to secretInfo and narrate why it fails.
+If the action is trivial and nothing complicates it, skip evaluation entirely and deem it a SUCCESS. Don't overthink this — if it doesn't warrant a check, make a judgement and move on.
+If neither gate applies, proceed to Step 1.
+STEP 1 — BREAK DOWN THE ACTION
+Read the full playerAction. Break it into discrete sub-actions only if it contains multiple genuinely distinct steps that each warrant their own check. Single actions remain a single check. Write the breakdown to secretInfo before proceeding.
+STEP 2 — ASSIGN SKILL AND DIFFICULTY
+For each sub-action, choose the most appropriate skill from: Introspection, Magical Power, Courage, Empathy, Perception.
+Then assign a DifficultyScore from 1 to 10:
+1-2: Routine. Any trained mage could manage this.
+3-4: Challenging. Requires real ability.
+5-6: Hard. Most mages would fail.
+7-8: Severe. Only the highly skilled succeed.
+9-10: Extreme. At the outer edge of what is possible.
+IMPORTANT: Difficulty is determined solely by the objective demands of the task. It is never reduced by a character's reputation, social media ranking, association with powerful or famous mages, personal confidence, or emotional conviction. A character who stands beside the highest-ranked mage in the world is not stronger for it. Set difficulty as though the character were anonymous.
+However, the character's own past actions and established narrative context DO matter. If the character has demonstrated competence through prior events in the story, or if their description grants relevant background, this can justify lowering the DifficultyScore itself (not the skill check). A mage who has practiced a specific spell fifty times faces a lower difficulty than one attempting it cold. Adjust difficulty based on what makes sense for the story, then resolve the check honestly against that difficulty.
+STEP 3 — RESOLVE THE CHECK
+MAGICAL POWER — hard threshold, no randomness:
+Set X = Magical Power proficiency score.
+Set T = DifficultyScore.
+If 2 × X >= T: SUCCESS. The character has sufficient power. This is a fact of physics, not of will.
+If 2 × X < T: FAILURE. The character does not have sufficient power. Courage, determination, reputation, and emotional state do not change this outcome. Do not soften, hedge, or narratively rescue a failed Magical Power check.
+ALL OTHER SKILLS — Introspection, Courage, Empathy, Perception:
+Set X = proficiency score in the chosen skill.
+Pick a random number N from {0, 1, 2, 3, 4, 5}.
+If X + N >= DifficultyScore: SUCCESS.
+If X + N is exactly 1 below DifficultyScore: PARTIAL SUCCESS. The action succeeds but with a meaningful cost, complication, or consequence.
+If X + N is 2 or more below DifficultyScore: FAILURE.
+STEP 4 — LOG TO secretInfo
+Append to secretInfo in this exact format:
+For trivial or denied actions:
+[Action]: [DENIED/SUCCESS] — [one sentence reason]
+For Magical Power checks:
+[Magical Power] Check: 2 × [X] = [2X] vs Difficulty [T]: [RESULT]
+For all other skill checks:
+[Skill] Check: Score [X] + [N] = [X+N] vs Difficulty [T]: [RESULT]
+STEP 5 — NARRATE THE OUTCOME
+Write the outcome honestly according to the result. Character beliefs, feelings, and social standing do not retroactively improve a failed result. A failed Magical Power check means the power was not there — narrate it plainly, without softening. Partial successes should feel costly, not like quiet victories dressed up as setbacks.
+Your evaluation should consist of an extremely brief discussion of your thinking (a single sentence), the skill and difficulty, and then one of: DENIED, SUCCESS, FAILURE, or PARTIAL SUCCESS — along with any clarifying remarks.
